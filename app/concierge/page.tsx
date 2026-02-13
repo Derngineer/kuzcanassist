@@ -147,9 +147,13 @@ export default function Concierge() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-          <Link href="/" className="text-2xl font-[family-name:var(--font-playfair)] tracking-wider">
-            <span className="gradient-text font-semibold">KUZIE</span>
-            <span className="text-[#f5f5f5]/80 font-light ml-2">can assist</span>
+          <Link href="/" className="flex flex-col items-center">
+            <img 
+              src="/logo 2.png" 
+              alt="Kuzie Can Assist" 
+              className="h-10 md:h-12 w-auto"
+            />
+            <span className="text-[10px] tracking-[0.2em] uppercase text-[#c9a962] mt-1 font-[family-name:var(--font-montserrat)]">Kuzie Can Assist</span>
           </Link>
 
           <div className="hidden md:flex items-center gap-10">
@@ -391,7 +395,7 @@ export default function Concierge() {
             Let us craft your perfect UAE experience. Reach out to start planning today.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <a href="https://wa.me/971500000000" target="_blank" rel="noopener noreferrer" className="btn-luxury btn-luxury-filled inline-flex items-center justify-center gap-3">
+            <a href="https://wa.me/971557867183" target="_blank" rel="noopener noreferrer" className="btn-luxury btn-luxury-filled inline-flex items-center justify-center gap-3">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
               </svg>
@@ -407,9 +411,13 @@ export default function Concierge() {
       {/* Footer */}
       <footer className="py-12 px-6 border-t border-[#c9a962]/10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-          <Link href="/" className="text-xl font-[family-name:var(--font-playfair)] tracking-wider">
-            <span className="gradient-text font-semibold">KUZIE</span>
-            <span className="text-[#f5f5f5]/80 font-light ml-2">can assist</span>
+          <Link href="/" className="flex flex-col items-center">
+            <img 
+              src="/logo 2.png" 
+              alt="Kuzie Can Assist" 
+              className="h-10 w-auto"
+            />
+            <span className="text-[9px] tracking-[0.2em] uppercase text-[#c9a962] mt-1 font-[family-name:var(--font-montserrat)]">Kuzie Can Assist</span>
           </Link>
           <p className="text-[#f5f5f5]/40 text-sm">
             © 2026 Kuzie Can Assist. All rights reserved.
